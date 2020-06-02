@@ -1,67 +1,63 @@
-
 /*Standard*/
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /*Nav-bar*/
-.nav-bar{
-    /* justify-content: space-between; */
-    display: flex;
-    height: 56px;
-    background-color:white;
-    padding: 0 16px;
+.nav-bar {
+  /* justify-content: space-between; */
+  display: flex;
+  height: 56px;
+  background-color: white;
+  padding: 0 16px;
 }
-a{
-    color: transparent;
+a {
+  color: transparent;
 }
-.guide{
-    height: 30px;
-    width: 40px;
-    margin: 0px 0px 5px 0px;
+.guide {
+  height: 30px;
+  width: 40px;
+  margin: 0px 0px 5px 0px;
 }
-
 
 .logo {
-    width: 80px;
-    height: 38px;
-    margin: 10px 95px 0px 12px;
-    
+  width: 80px;
+  height: 38px;
+  margin: 10px 95px 0px 12px;
 }
 
 /*center-header*/
 
-.center-header{
-    margin-top: 4px;
+.center-header {
+  margin-top: 4px;
 }
 
-.input{
-    padding: 0px 5px;
-    font-size: 16px;
-    width: 575px;
-    height: 30px;
-    color: silver;
-    margin: 0px 0px 0px 56px;
+.input {
+  padding: 0px 5px;
+  font-size: 16px;
+  width: 575px;
+  height: 30px;
+  color: silver;
+  margin: 0px 0px 0px 56px;
 }
-.search-button{
-    height: 30px;
-    width: 65px;
-    margin: 10px 0px 0px 0px;
-    
+.search-button {
+  height: 30px;
+  width: 65px;
+  margin: 10px 0px 0px 0px;
 }
-.search-icon{
-   
-     height: 30px;
-     width: 65px;
-     
+.search-icon {
+  height: 30px;
+  width: 65px;
 }
-
-
-    
 
 /*Video*/
 
+.video{
+   position: relative;
+   left: 73px;
+   top: 23px;
+}
 /*Recommendation*/
 
 /*sidebar*/
