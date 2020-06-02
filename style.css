@@ -7,7 +7,7 @@
 
 /*Nav-bar*/
 .nav-bar{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
     height: 56px;
     background-color: beige;
@@ -26,12 +26,24 @@ a{
 .logo {
     width: 80px;
     height: 38px;
-    margin: 10px 0px 0px 12px;
+    margin: 10px 95px 0px 12px;
+    
+}
 
 .search-bar{
+    margin: 10px 0px 0px 0px;
+}
 
-   
-    }
+.search{
+     height: 13px;
+     width: 30px;
+}
+
+input{
+    width: 430px;
+    height: 30px;
+    color: silver;
+}
     
     .icon{
        border-radius: 5px;
@@ -39,10 +51,6 @@ a{
        .search-button{
         float:center;
     }
-    .Sign-in{
-        
-    }
-
 
 
 /*Video*/
@@ -50,7 +58,3 @@ a{
 /*Recommendation*/
 
 /*sidebar*/
-
-
-
-}
