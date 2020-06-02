@@ -33,7 +33,7 @@ a{
 /*center-header*/
 
 .center-header{
-    
+    margin-top: 4px;
 }
 
 .input{
@@ -47,10 +47,11 @@ a{
 .search-button{
     height: 30px;
     width: 65px;
-    padding: 0px;
+    margin: 10px 0px 0px 0px;
     
 }
 .search-icon{
+   
      height: 30px;
      width: 65px;
      
