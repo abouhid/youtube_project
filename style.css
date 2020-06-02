@@ -29,7 +29,7 @@ a {
 
 /*center-header*/
 
-.center-header {
+.center-header, .right-header {
   margin-top: 4px;
 }
 
@@ -49,6 +49,23 @@ a {
 .search-icon {
   height: 30px;
   width: 65px;
+}
+
+
+/*right-header*/
+.right-header{
+  margin: 17px 0px 0px 108px;
+}
+.add{
+  height:22px;
+}
+.grid{
+  margin: 0px 0px 0px 20px;
+  height:24px;
+}
+.settings{
+  margin: 0px 0px 0px 25px;
+  height:25px;
 }
 
 /*Video*/
