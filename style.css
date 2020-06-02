@@ -29,7 +29,8 @@ a {
 
 /*center-header*/
 
-.center-header, .right-header {
+.center-header,
+.right-header {
   margin-top: 4px;
 }
 
@@ -51,31 +52,44 @@ a {
   width: 65px;
 }
 
-
 /*right-header*/
-.right-header{
+.right-header {
   margin: 17px 0px 0px 108px;
 }
-.add{
-  height:22px;
+.add {
+  height: 22px;
 }
-.grid{
+.grid {
   margin: 0px 0px 0px 20px;
-  height:24px;
+  height: 24px;
 }
-.settings{
-  margin: 0px 0px 0px 25px;
-  height:25px;
+.settings {
+  margin: 2px 0px 0px 25px;
+  height: 25px;
 }
-
+.account{
+    border: none;
+    margin: 18px 0px 0px 0px;
+}
+.profile{
+    height: 28px;
+    margin-bottom: 2px;
+    
+}
+.pro{
+    border: none;
+    margin: 0px 0px 0px 25px;
+    cursor: pointer;
+    background-color:white;
+}
 /*Video*/
-.video{
-   position: relative;
-   left: 126px;
-   top: 24px;
+.video {
+  position: relative;
+  left: 126px;
+  top: 24px;
 }
 
-.embed{
+.embed {
   width: 667px;
   height: 375px;
 }
