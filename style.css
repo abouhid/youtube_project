@@ -52,11 +52,15 @@ a {
 }
 
 /*Video*/
-
 .video{
    position: relative;
-   left: 73px;
-   top: 23px;
+   left: 126px;
+   top: 24px;
+}
+
+.embed{
+  width: 667px;
+  height: 375px;
 }
 /*Recommendation*/
 
