@@ -30,28 +30,34 @@ a{
     
 }
 
-.search-bar{
-    margin: 10px 0px 0px 0px;
+/*center-header*/
+
+.center-header{
+    
 }
 
-.search{
-     height: 13px;
-     width: 30px;
-}
-
-input{
-    width: 430px;
+.input{
+    padding: 0px 5px;
+    font-size: 16px;
+    width: 575px;
     height: 30px;
     color: silver;
+    margin: 0px 0px 0px 56px;
 }
+.search-button{
+    height: 30px;
+    width: 65px;
+    padding: 0px;
     
-    .icon{
-       border-radius: 5px;
-    }
-       .search-button{
-        float:center;
-    }
+}
+.search-icon{
+     height: 30px;
+     width: 65px;
+     
+}
 
+
+    
 
 /*Video*/
 
