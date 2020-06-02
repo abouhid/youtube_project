@@ -1,23 +1,25 @@
-
-
-
-.nav-bar{
-    background-color: aquamarine;  
-    position: static; 
+*{
+    padding: 0;
+    margin: 0;
 }
-
 img {
-    width :50px;
+    width :83px;
     float: left;
     }
 .nav-bar{
-    text-align:center
+    justify-content: space-between;
+    display: flex;
 }
 .search-bar{
- 
-    background:green;
+   
+   
 }
-
-   .search-button, .Sign-in {
-    float: right;
+.icon{
+   border-radius: 5px;
+}
+   .search-button{
+    float:center;
+}
+.Sign-in{
+    
 }
