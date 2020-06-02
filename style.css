@@ -1,25 +1,56 @@
+
+/*Standard*/
 *{
     padding: 0;
     margin: 0;
 }
-img {
-    width :83px;
-    float: left;
-    }
+
+/*Nav-bar*/
 .nav-bar{
     justify-content: space-between;
     display: flex;
+    height: 56px;
+    background-color: beige;
+    padding: 0 16px;
 }
+a{
+    color: transparent;
+}
+.guide{
+    height: 30px;
+    width: 40px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+.logo {
+    width: 80px;
+    height: 38px;
+    margin: 10px 0px 0px 12px;
+
 .search-bar{
+
    
-   
-}
-.icon{
-   border-radius: 5px;
-}
-   .search-button{
-    float:center;
-}
-.Sign-in{
+    }
     
+    .icon{
+       border-radius: 5px;
+    }
+       .search-button{
+        float:center;
+    }
+    .Sign-in{
+        
+    }
+
+
+
+/*Video*/
+
+/*Recommendation*/
+
+/*sidebar*/
+
+
+
 }
