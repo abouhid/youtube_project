@@ -45,7 +45,7 @@ a {
 .search-button {
   height: 30px;
   width: 65px;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px -2px;
 }
 .search-icon {
   height: 30px;
