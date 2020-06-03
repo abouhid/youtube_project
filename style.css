@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+a {
+  color: transparent;
+}
 /*Nav-bar*/
 .nav-bar {
   /* justify-content: space-between; */
@@ -12,14 +14,8 @@
   background-color: white;
   padding: 0 16px;
 }
-a {
-  color: transparent;
-}
-.guide {
-  height: 30px;
-  width: 40px;
-  margin: 0px 0px 5px 0px;
-}
+
+
 
 .logo {
   width: 80px;
@@ -29,8 +25,7 @@ a {
 
 /*center-header*/
 
-.center-header,
-.right-header {
+.center-header {
   margin-top: 4px;
 }
 
@@ -54,8 +49,7 @@ a {
 
 /*right-header*/
 .right-header {
-  margin: 17px 0px 0px 108px;
-}
+  margin: 17px 0px 0px 108px;}
 .add {
   height: 22px;
 }
