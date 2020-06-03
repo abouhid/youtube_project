@@ -8,8 +8,8 @@ a {
   color: transparent;
 }
 
-body{
-  width: 108% ;
+body {
+  width: 108%;
   overflow: hidden;
 }
 /* % */
@@ -41,8 +41,8 @@ body{
 /*center-header*/
 
 .center-header {
- position: absolute;
- top: 4px;
+  position: absolute;
+  top: 4px;
 }
 
 .input {
@@ -52,7 +52,6 @@ body{
   height: 30px;
   color: silver;
   margin: 0px 0px 0px 150px;
-  
 }
 .search-button {
   height: 30px;
@@ -71,19 +70,19 @@ body{
   top: 8px;
 }
 
-#icon-grid{
+#icon-grid {
   position: relative;
   left: 28px;
 }
-#icon-setting{
+#icon-setting {
   position: relative;
   left: 60px;
 }
 
-.log-in{
+.log-in {
   background-color: white;
-  border-color: #065FD4;
-  color: #065FD4;
+  border-color: #065fd4;
+  color: #065fd4;
   font-size: 23px;
   height: 40px;
   width: 140px;
@@ -94,18 +93,13 @@ body{
   cursor: pointer;
 }
 
-
-#icon-profile{
+#icon-profile {
   position: absolute;
   left: 145px;
-  color: #065FD4;
-  
+  color: #065fd4;
+
   bottom: 7px;
-
-
 }
-
-
 
 /*Main*/
 .video {
@@ -117,6 +111,34 @@ body{
 .embed {
   width: 667px;
   height: 375px;
+}
+
+/* author */
+#title{
+  position: relative;
+  top: 50px;
+  left: 125px;
+  font-weight: bold;
+}
+
+#views{
+  position: relative;
+  top: 70px;
+  left: 125px;
+}
+#views i{
+  color: silver;
+  cursor: pointer;
+  padding: 0px 25px 0px 10px;
+  font-weight: bold;
+}
+#separate{
+  padding-left: 10px;
+}
+#line{
+  position: relative;
+  top: 80px;
+  margin: 0px 354px 0px 124px;
 }
 /*Recommendation*/
 
