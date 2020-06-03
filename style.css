@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
+
 a {
   color: transparent;
 }
+
 body{
   width: 108% ;
   overflow: hidden;
@@ -23,24 +25,24 @@ body{
   align-items: center;
 }
 
-.bar{
+.bar {
   position: absolute;
-  top: 31px;
-  margin-right: 5px;
-  
+  top: 20px;
+  margin-left: 10px;
+  font-size: 19px;
 }
 
 .logo {
   width: 80px;
   height: 40px;
-  margin: 20px 0px 0px 40px;
+  margin: 12px 0px 0px 57px;
 }
 
 /*center-header*/
 
 .center-header {
  position: absolute;
- top: 15px;
+ top: 4px;
 }
 
 .input {
@@ -49,8 +51,8 @@ body{
   width: 575px;
   height: 30px;
   color: silver;
-  margin: 0px 0px 0px 200px;
-  left: 50px
+  margin: 0px 0px 0px 150px;
+  
 }
 .search-button {
   height: 30px;
@@ -63,61 +65,50 @@ body{
 }
 /* 
 /*right-header*/
-/* .right-header {
-  margin: 17px 0px 0px 108px;}
-.add {
-  height: 22px;
-}
-.grid {
-  margin: 0px 0px 0px 20px;
-  height: 24px;
-}
-.settings {
-  margin: 2px 0px 0px 25px;
-  height: 25px;
-}
-.account{
-    border: none;
-    margin: 18px 0px 0px 0px;
-}  */
-.profile{
-    height: 28px;
-    margin-bottom: 2px;
-    
-}
-.pro{
-    border: none;
-    margin: 0px 0px 0px 25px;
-    cursor: pointer;
-    background-color:white;
+.right-header {
+  position: absolute;
+  left: 1016px;
+  top: 8px;
 }
 
-#icon-video{
-  position: absolute;
-    left: 1024px;
-    top: 30px;
+#icon-grid{
+  position: relative;
+  left: 28px;
+  cursor: pointer;
 }
-#icon-hamburger{
-  position: absolute;
-  top: 30px;
-  left: 1088px;
-}
-
 #icon-setting{
-  position: absolute;
-  top: 30px;
-  left: 1154px;
+  position: relative;
+  left: 60px;
 }
+
+.log-in{
+  background-color: white;
+  border-color: #065FD4;
+  color: #065FD4;
+  font-size: 23px;
+  height: 40px;
+  width: 140px;
+  margin: 0px 0px 0px 78px;
+  border-width: 0.05em;
+  padding-left: 20px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
 
 #icon-profile{
   position: absolute;
-  top:30px;
-  left:1204px
+  left: 145px;
+  color: #065FD4;
+  
+  bottom: 7px;
+
+
 }
-#avatar{
-  height: 5px;
-}
-/*Video*/
+
+
+
+/*Main*/
 .video {
   position: relative;
   left: 126px;
