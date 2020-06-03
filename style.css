@@ -61,9 +61,9 @@ body{
   height: 30px;
   width: 65px;
 }
-
+/* 
 /*right-header*/
-.right-header {
+/* .right-header {
   margin: 17px 0px 0px 108px;}
 .add {
   height: 22px;
@@ -79,12 +79,12 @@ body{
 .account{
     border: none;
     margin: 18px 0px 0px 0px;
-}
-.profile{
+}  */
+/* .profile{
     height: 28px;
     margin-bottom: 2px;
     
-}
+} */
 .pro{
     border: none;
     margin: 0px 0px 0px 25px;
