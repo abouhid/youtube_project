@@ -14,39 +14,40 @@
   </head>
 
   <body>
-    <nav class="nav-bar">
+    <div class="nav-bar">
+
       <!-- Left-header -->
-      <div class="left-header">
+      
         <span class="bar"> <i class="fa fa-bars"></i> </span>
         <a href="#"> </a>
         <img
           class="logo"
           src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"
         />
+      <!-- center-header -->
         <span class="center-header">
-          <input class="input" type="Search" placeholder="Search" /><!-- 
+          <input class="input" type="Search" placeholder="Search" /><!-- don't forget keyboard icon
             --><button type="submit" class="search-button">
             <i class="fas fa-search"></i>
           </button>
         </span>
-        <span id="icon-video"
-          ><a href="#"> <i class="fas fa-video" style="color: #606060;"></i></a
-        ></span>
-        <span id="icon-hamburger">
-          <a href="#"> <i class="fa fa-th" style="color: #606060;"></i></a
-        ></span>
-        <span id="icon-setting"
-          ><a href="#">
-            <i class="fa fa-ellipsis-v" style="color: #606060;"></i></a
-        ></span>
-        <span id="icon-profile">
-          <i class="fas fa-user-circle" id="avatar" style="color: #606060;"></i
-        ></span>
+        
+      <!-- right-header -->
+      <span class="right-header">
+        
+          <a href="#"> <i id="icon-video" class="fas fa-video" style="color: #606060;"></i></a>
+          <a href="#"> <i id="icon-grid" class="fas fa-th" style="color: #606060;"></i></a>
+          <a href="#"> <i id="icon-setting" class="fa fa-ellipsis-v" style="color: #606060;"></i></a>
+           <button class="log-in">
+            <span>
+              <i id="icon-profile" class="fa fa-user-circle"></i>
+            </span>Log in</button>
+            
+      </span>    
+    </div>
 
-        <!-- -->
-      </div>
-    </nav>
 
+      <!-- Main -->
     <div class="main">
       <div class="video">
         <a href="#">
