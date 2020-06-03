@@ -6,13 +6,17 @@
 a {
   color: transparent;
 }
+
+
 /*Nav-bar*/
 .nav-bar {
   /* justify-content: space-between; */
   display: flex;
   height: 56px;
+  width: 100%;
   background-color: white;
   padding: 0 16px;
+  align-items: center;
 }
 
 
@@ -20,7 +24,6 @@ a {
 .logo {
   width: 80px;
   height: 38px;
-  margin: 10px 95px 0px 12px;
 }
 
 /*center-header*/
