@@ -115,6 +115,7 @@ body {
 .secondary-column{
   float: right;
   width: 33%;
+  margin-top: -25px;
 }
 
 
@@ -164,6 +165,24 @@ body {
 }
 
 /*Recommendation*/
+
+#upnxt{
+  position: relative;
+  top: 45px;
+}
+#auto-play{
+  position: relative;
+  top: 27px;
+  left: 264px;
+  color: silver;
+  /* margin-left: 162px; */
+}
+#toggle{
+  position: relative;
+  top: 2px;
+  color: blue;
+  
+}
 .thumbnail{
    width: 168px;
    height: 94px;
