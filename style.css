@@ -6,17 +6,17 @@
   font-size: medium;
 }
 
-a {
-  color: transparent;
+a,.search-button {
+  color: #606060;
 }
 
 body {
   width: 100%;
 
 }
-/* % */
 
 /*Nav-bar*/
+
 .nav-bar {
   /* justify-content: space-between;
   display: flex; */
@@ -58,14 +58,15 @@ body {
 .search-button {
   height: 30px;
   width: 65px;
-  margin: 10px 0px 0px -2px;
+  margin: 10px 0px 0px -5px;
 }
 .search-icon {
   height: 30px;
   width: 65px;
 }
-/* 
+
 /*right-header*/
+
 .right-header {
   position: absolute;
   left: 1016px;
@@ -148,19 +149,19 @@ body {
   left: 125px;
 }
 #views i{
-  color: silver;
+  color: #606060;
   cursor: pointer;
-  padding: 0px 25px 0px 10px;
+  padding: 0px 8px 0px 10px;
   font-weight: bold;
 }
 #separate{
-  padding-left: 10px;
+  padding-left: 150px;
 }
 #line{
   position: relative;
   top: 80px;
   margin: 0px 354px 0px 124px;
-  margin-right: 11px;
+  margin-right: -30px;
 }
 .secondary-column{
   width: 33%;
@@ -233,6 +234,8 @@ body {
   width: 130px;
   height: 40px;
   cursor: pointer;
+  font-size: 18px;
+
 }
 #content{
   position: relative;
