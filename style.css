@@ -109,8 +109,8 @@ body {
 }
 .primary-column{
   float: left;
-  width: 62%;
-}
+  width: 57%;
+  }
 
 .secondary-column{
   float: right;
@@ -164,22 +164,37 @@ body {
 
 /*Recommendation*/
 .recomendation{
-   width: 200px;
-   height: 100px;
+   width: 168px;
+   height: 94px;
 }
 
-#video-1{
+.sidebar{
+  display: flex;
   position: relative;
-  top: 65px;
+  top: 55px;
+  width: 392px;
+}
+.rec-pos{
+  display: flex;
+  height: 115px;
+}
+.rec-text-pos{
+  margin-left:8px;
+  word-wrap: break-word; 
+
 }
 
-.rec-text{
-  position: absolute;
-  left: 215px;
-  bottom: 96px;
-  overflow-wrap: break-word;
-  width: 245px;
+.p.rec-text{
+  /* word-wrap: break-word; */
+  
 }
+/* .rec-text{
+  position: absolute;
+  /* left: 215px;
+  bottom: 96px; */
+  /* overflow-wrap: break-word; */
+  /* width: 245px; */
+/* }
 .rec-channel{
   position: relative;
   left: 215px;
@@ -190,7 +205,5 @@ body {
   position: relative;
   left: 289px;
   bottom: 70px;
-  width: 245px;
-}
-
+  width: 245px; }*/ 
 
