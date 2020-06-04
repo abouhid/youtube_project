@@ -104,15 +104,19 @@ body {
 /*Main*/
 
 .main{
-  background-color: grey;
-flex: 1;
-  display: inline-block;
+  display: block;
 
 }
 .primary-column{
   float: left;
+  width: 62%;
+}
+
+.secondary-column{
+  float: right;
   width: 50%;
 }
+
 
 
 .video {
@@ -155,14 +159,38 @@ flex: 1;
   margin: 0px 354px 0px 124px;
 }
 .secondary-column{
-  
+  width: 38%;
 }
 
 /*Recommendation*/
-.sidebar{
-  display:flex;
-  float: right;
+.recomendation{
+   width: 200px;
+   height: 100px;
 }
 
+#video-1{
+  position: relative;
+  top: 65px;
+}
+
+.rec-text{
+  position: absolute;
+  left: 215px;
+  bottom: 96px;
+  overflow-wrap: break-word;
+  width: 245px;
+}
+.rec-channel{
+  position: relative;
+  left: 215px;
+  bottom: 54px;
+  width: 245px;
+}
+#ch-icon{
+  position: relative;
+  left: 289px;
+  bottom: 70px;
+  width: 245px;
+}
 
 
