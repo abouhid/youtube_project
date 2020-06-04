@@ -140,6 +140,17 @@ body {
   top: 80px;
   margin: 0px 354px 0px 124px;
 }
+#channel{
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  margin: 0px 354px 0px 130px;
+}
+#content{
+  position: absolute;
+  top: 90px;
+  margin: 0px 1px 0px 0px;
+}
 /*Recommendation*/
 
 /*sidebar*/
