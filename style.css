@@ -102,10 +102,24 @@ body {
 }
 
 /*Main*/
+
+.main{
+  background-color: grey;
+flex: 1;
+  display: inline-block;
+
+}
+.primary-column{
+  float: left;
+  width: 50%;
+}
+
+
 .video {
+  display: inline-block;
   position: relative;
   left: 126px;
-  top: 24px;
+  top: 24px; 
 }
 
 .embed {
@@ -118,7 +132,7 @@ body {
   position: relative;
   top: 50px;
   left: 125px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 #views{
@@ -140,6 +154,15 @@ body {
   top: 80px;
   margin: 0px 354px 0px 124px;
 }
-/*Recommendation*/
+.secondary-column{
+  
+}
 
-/*sidebar*/
+/*Recommendation*/
+.sidebar{
+  display:flex;
+  float: right;
+}
+
+
+
