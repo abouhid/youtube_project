@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  width: 108%;
+  width: 100%;
 
 }
 /* % */
@@ -114,7 +114,7 @@ body {
 
 .secondary-column{
   float: right;
-  width: 50%;
+  width: 33%;
 }
 
 
@@ -157,9 +157,10 @@ body {
   position: relative;
   top: 80px;
   margin: 0px 354px 0px 124px;
+  margin-right: 11px;
 }
 .secondary-column{
-  width: 38%;
+  width: 33%;
 }
 
 /*Recommendation*/
@@ -183,24 +184,39 @@ body {
   word-wrap: break-word; 
 
 }
-
-
-/* .rec-text{
-  position: absolute;
-  /* left: 215px;
-  bottom: 96px; */
-  /* overflow-wrap: break-word; */
-  /* width: 245px; */
-/* }
-.rec-channel{
+#ch-img{
+  border-radius: 50px;
   position: relative;
-  left: 215px;
-  bottom: 54px;
-  width: 245px;
+  top: 100px;
+  left: 120px;
 }
-#ch-icon{
+#ch-name{
   position: relative;
-  left: 289px;
-  bottom: 70px;
-  width: 245px; }*/ 
-
+  top: 65px;
+  left: 200px;
+}
+#ch-subscribers{
+  position: relative;
+  top: 70px;
+  color: silver;
+  left: 200px;
+}
+#subscribe{
+  position: relative;
+  top: 13px;
+  color: white;
+  background-color: rgb(204, 0, 0);
+  border-color: rgb(204, 0, 0);
+  border-radius: 2px;
+  left: 666px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+#content{
+  position: relative;
+  top: 45px;
+  left: 200px;
+  line-break: auto;
+  width: 575px;
+}
