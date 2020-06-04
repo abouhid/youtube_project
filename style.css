@@ -10,7 +10,7 @@ a {
 
 body {
   width: 108%;
-  overflow: hidden;
+
 }
 /* % */
 
@@ -163,7 +163,7 @@ body {
 }
 
 /*Recommendation*/
-.recomendation{
+.thumbnail{
    width: 168px;
    height: 94px;
 }
@@ -184,10 +184,7 @@ body {
 
 }
 
-/* .p.rec-text{ */
-  /* word-wrap: break-word; */
-  
-}
+
 /* .rec-text{
   position: absolute;
   /* left: 215px;
