@@ -21,7 +21,7 @@ body {
   /* justify-content: space-between;
   display: flex; */
   height: 56px;
-  width: 90%;
+  width: 100%;
   background-color: white;
   padding: 0 16px;
   align-items: center;
@@ -168,16 +168,25 @@ body {
   top: 115px;
   left: 120px
 }
-.sort{
+#sort{
   font-weight: bold;
   color: #606060;
 }
 .user i{
+ 
   color: #065fd4;
-  height: 40px;
-  width: 40px;
-  display: block;
-
+  font-size: 30px;
+  top: 32px;
+  position: relative;
+  left: 3px;
+}
+#comment{
+  position: relative;
+  width: 600px;
+  left: 17px;
+  top: 27px;
+  border: none;
+  border-color:#606060 ;
 }
 
 
@@ -193,7 +202,7 @@ body {
 #auto-play{
   position: relative;
   top: 27px;
-  left: 264px;
+  left: 300px;
   color: silver;
   /* margin-left: 162px; */
 }
