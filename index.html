@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en-us">
+  
   <head>
+    <meta charset="UTF-8">
     <!-- Link to fonts awesome for us to be able to use the icons -->
     <link
       rel="stylesheet"
@@ -19,18 +20,15 @@
     <div class="nav-bar">
   <!-- ==========================Left-header===================== -->
         <!-- Guide Icon -->      
-      <a href="#"> <span class="bar"> <i class="fa fa-bars"></i> </span></a>
+      <span class="bar"> <i class="fa fa-bars"></i> </span>
         <!-- Youtube Logo -->
-        <a href="#"><img
-        class="logo"
-        src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"
-      /></a>
+        <img class="logo" alt="youtube logo"  src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"/>
   <!-- ==========================Center-header===================== -->
 
       <span class="center-header">
         <input
           class="input"
-          type="Search"
+          type="text"
           placeholder="Search"/> 
           <button type="submit" class="search-button">
           <i class="fas fa-search"></i>
@@ -41,9 +39,9 @@
 
   <span class="right-header">
         <!-- Icons of the right header -->
-        <a href="#"><i id="icon-video" class="fas fa-video" style="color: #606060;"></i></a>
-        <a href="#"><i id="icon-grid" class="fas fa-th" style="color: #606060;"></i></a>
-        <a href="#"><i id="icon-setting"  class="fa fa-ellipsis-v" style="color: #606060;"></i></a>
+        <i id="icon-video" class="fas fa-video" style="color: #606060;"></i>
+        <i id="icon-grid" class="fas fa-th" style="color: #606060;"></i>
+        <i id="icon-setting"  class="fa fa-ellipsis-v" style="color: #606060;"></i>
         <!-- Log-in Button -->
         <button class="log-in">
           <span> <i id="icon-profile" class="fa fa-user-circle"></i> </span>SIGN IN</button></span>
@@ -57,16 +55,13 @@
   <!-- ==========================Primary Colum===================== -->
 
       <!--Video-->
-      <span class="primary-column">
+      <div class="primary-column">
         <span class="video">
           <iframe
-            class="embed"
-            ;
+            class="embed"            
             src="https://www.youtube.com/embed/ROOeGPrC1Do"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
+            
+            allowfullscreen>
           </iframe>
         </span>
 
@@ -90,13 +85,11 @@
         <!-- Hr line -->
         <hr id="line" />
         <div>
-          <img src="icons/ch.jpg" alt="channel image" id="ch-img" srcset="" />
-          <p id="ch-name">
-            <b> Top Gear</b>
-            <span><p id="ch-subscribers">7.33M subscribers</p></span>
+          <img src="icons/ch.jpg" alt="channel image" id="ch-img" />
+          <p id="ch-name"><b> Top Gear</b></p>
+          <span><p id="ch-subscribers">7.33M subscribers</p></span>
 
             <span><button id="subscribe">SUBSCRIBE</button></span>
-          </p>
           <p id="content">
             Hammond is in the dunes of Abu Dhabi to drive a new six wheeled
             machine from Mercedes Benz – the G63 6x6. Originally developed for
@@ -194,112 +187,111 @@
         </div>
       </span>         
 
-      <!-- ==========================Secondary Colum===================== -->
-      <span class="secondary-column">
-        <!--==============================Video 1-->
-        <p id="upnxt">Up next </p>
-        <p id="auto-play">Autoplay <span><i class="fas fa-toggle-on" id="toggle"></i></span></p>
-        <span class="sidebar">
-          
-          <span class="rec-pos">
-            <span><img class="thumbnail" src="http://i3.ytimg.com/vi/ZDbNe3mS0aw/maxresdefault.jpg"></span>
-            <!-- Video Title -->
-            <span class="rec-text-pos">
-              <span><p class="rec-text">Wibmer's Law - Fabio Wibmer | Wibmer's Law - Fabio</p></span>
-              <span><p class="rec-channel">Fabio Wibmer</p></span>
-              <span><p class="views-info">9k views • 24 days ago</p></span>
-
-            </span>
-          </span>
-        </span>
-        <!--==============================Video 2-->
-        <span class="sidebar">
-          <span class="rec-pos">
-            
-            <span><img class="thumbnail" src="http://i3.ytimg.com/vi/CqGZqyUwxZc/hqdefault.jpg"></span>
-            <!-- Video Title -->
-            <span class="rec-text-pos">
-              <span><p class="rec-text">Bugatti Veyron Vs Euro Fighter Typhoon: Drag Race (HQ) | Top Gear | BBC</p></span>
-              <span><p class="rec-channel">Top Gear</p></span>
-              <span><p class="views-info">40k views • 120 days ago</p></span>
-
-            </span>
-          </span>
-        </span>
-        <!--==============================Video 3-->
-        <span class="sidebar">
-          <span class="rec-pos">
-            
-            <span><img class="thumbnail" src="http://i3.ytimg.com/vi/DrUVMdkb4_k/maxresdefault.jpg"></span>
-            <!-- Video Title -->
-            <span class="rec-text-pos">
-              <span><p class="rec-text">Mercedes G63 AMG 6x6 Review | Top Gear | Series 21 | BBC </p></span>
-              <span><p class="rec-channel">Car Craze</p></span>
-              <span><p class="views-info">8k views • 20 days ago</p></span>
-
-            </span>
-          </span>
-        </span>
-            <!--==============================Video 4-->
-            <span class="sidebar">
-              <span class="rec-pos">
-                
-                <span><img class="thumbnail" src="http://i3.ytimg.com/vi/cDoRmT0iRic/hqdefault.jpg"></span>
-                <!-- Video Title -->
-                <span class="rec-text-pos">
-                  <span><p class="rec-text">The Marauder | Ten Ton Military Vehicle | Top Gear | BBC</p></span>
-                  <span><p class="rec-channel">Aviation Gear</p></span>
-                  <span><p class="views-info">1M views • 2 days ago</p></span>
-
-                </span>
-              </span>
-            </span>
-    <!--==============================Video 4-->
-    <span class="sidebar">
-      <span class="rec-pos">
+      </div>
+    
+    <!-- ==========================Secondary Colum===================== -->
+    <div class="secondary-column">
+      <!--==============================Video 1-->
+      <p id="upnxt">Up next </p>
+      <p id="auto-play">Autoplay <span><i class="fas fa-toggle-on" id="toggle"></i></span></p>
+      <span class="sidebar">
         
-        <span><img class="thumbnail" src="http://i3.ytimg.com/vi/luH-rOYixY8/maxresdefault.jpg"></span>
-        <!-- Video Title -->
-        <span class="rec-text-pos">
-          <span><p class="rec-text">F1 Car vs F/A-18 Hornet (Red Bull's Daniel Ricciardo Feels The Force)</p></span>
-          <span><p class="rec-channel">Aston Martin Red Bull Racing</p></span>
-          <span><p class="views-info">100M views • 200 days ago</p></span>
+        <span class="rec-pos">
+          <span><img class="thumbnail" src="http://i3.ytimg.com/vi/ZDbNe3mS0aw/maxresdefault.jpg"></span>
+          <!-- Video Title -->
+          <span class="rec-text-pos">
+            <span><p class="rec-text">Wibmer's Law - Fabio Wibmer | Wibmer's Law - Fabio</p></span>
+            <span><p class="rec-channel">Fabio Wibmer</p></span>
+            <span><p class="views-info">9k views • 24 days ago</p></span>
 
+          </span>
         </span>
       </span>
-    </span>
-     <!--==============================Video 5-->
-     <span class="sidebar">
-      <span class="rec-pos">
-        
-        <span><img class="thumbnail" src="http://i3.ytimg.com/vi/FssQhpAqv1I/maxresdefault.jpg"></span>
-        <!-- Video Title -->
-        <span class="rec-text-pos">
-          <span><p class="rec-text">Mine Racing with The Stig's Australian Cousin | Top Gear | Series 22 | BBC</p></span>
-          <span><p class="rec-channel">Racing Wheel</p></span>
-          <span><p class="views-info">8k views • 6 days ago</p></span>
-
-          
-        </span>
-      </span>
-    </span>
-      <!--==============================Video 6-->
+      <!--==============================Video 2-->
       <span class="sidebar">
         <span class="rec-pos">
           
-          <span><img class="thumbnail" src="http://i3.ytimg.com/vi/8-9oFxYFODE/maxresdefault.jpg"></span>
+          <span><img class="thumbnail" src="http://i3.ytimg.com/vi/CqGZqyUwxZc/hqdefault.jpg"></span>
           <!-- Video Title -->
           <span class="rec-text-pos">
-            <span><p class="rec-text">Drag Race: Formula E Car vs Cheetah</p></span>
-            <span><p class="rec-channel">ABB Formula E</p></span>
-            <span><p class="views-info">14k views • 3 days ago</p></span>
+            <span><p class="rec-text">Bugatti Veyron Vs Euro Fighter Typhoon: Drag Race (HQ) | Top Gear | BBC</p></span>
+            <span><p class="rec-channel">Top Gear</p></span>
+            <span><p class="views-info">40k views • 120 days ago</p></span>
 
           </span>
         </span>
       </span>
+      <!--==============================Video 3-->
+      <span class="sidebar">
+        <span class="rec-pos">
+          
+          <span><img class="thumbnail" src="http://i3.ytimg.com/vi/DrUVMdkb4_k/maxresdefault.jpg"></span>
+          <!-- Video Title -->
+          <span class="rec-text-pos">
+            <span><p class="rec-text">Mercedes G63 AMG 6x6 Review | Top Gear | Series 21 | BBC </p></span>
+            <span><p class="rec-channel">Car Craze</p></span>
+            <span><p class="views-info">8k views • 20 days ago</p></span>
+
           </span>
         </span>
       </span>
-    </div>
+          <!--==============================Video 4-->
+          <span class="sidebar">
+            <span class="rec-pos">
+              
+              <span><img class="thumbnail" src="http://i3.ytimg.com/vi/cDoRmT0iRic/hqdefault.jpg"></span>
+              <!-- Video Title -->
+              <span class="rec-text-pos">
+                <span><p class="rec-text">The Marauder | Ten Ton Military Vehicle | Top Gear | BBC</p></span>
+                <span><p class="rec-channel">Aviation Gear</p></span>
+                <span><p class="views-info">1M views • 2 days ago</p></span>
+
+              </span>
+            </span>
+          </span>
+  <!--==============================Video 4-->
+  <span class="sidebar">
+    <span class="rec-pos">
+      
+      <span><img class="thumbnail" src="http://i3.ytimg.com/vi/luH-rOYixY8/maxresdefault.jpg"></span>
+      <!-- Video Title -->
+      <span class="rec-text-pos">
+        <span><p class="rec-text">F1 Car vs F/A-18 Hornet (Red Bull's Daniel Ricciardo Feels The Force)</p></span>
+        <span><p class="rec-channel">Aston Martin Red Bull Racing</p></span>
+        <span><p class="views-info">100M views • 200 days ago</p></span>
+
+      </span>
+    </span>
+  </span>
+   <!--==============================Video 5-->
+   <span class="sidebar">
+    <span class="rec-pos">
+      
+      <span><img class="thumbnail" src="http://i3.ytimg.com/vi/FssQhpAqv1I/maxresdefault.jpg"></span>
+      <!-- Video Title -->
+      <span class="rec-text-pos">
+        <span><p class="rec-text">Mine Racing with The Stig's Australian Cousin | Top Gear | Series 22 | BBC</p></span>
+        <span><p class="rec-channel">Racing Wheel</p></span>
+        <span><p class="views-info">8k views • 6 days ago</p></span>
+
+        
+      </span>
+    </span>
+  </span>
+    <!--==============================Video 6-->
+    <span class="sidebar">
+      <span class="rec-pos">
+        
+        <span><img class="thumbnail" src="http://i3.ytimg.com/vi/8-9oFxYFODE/maxresdefault.jpg"></span>
+        <!-- Video Title -->
+        <span class="rec-text-pos">
+          <span><p class="rec-text">Drag Race: Formula E Car vs Cheetah</p></span>
+          <span><p class="rec-channel">ABB Formula E</p></span>
+          <span><p class="views-info">14k views • 3 days ago</p></span>
+
+        </span>
+      </span>
+    </span>
+        </div>
   </body>
 </html>

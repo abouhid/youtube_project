@@ -32,12 +32,16 @@ body {
   top: 20px;
   margin-left: 10px;
   font-size: 19px;
+  cursor: pointer;
+
 }
 
 .logo {
   width: 80px;
   height: 40px;
   margin: 12px 0px 0px 57px;
+  cursor: pointer;
+
 }
 
 /*center-header*/
@@ -56,7 +60,7 @@ body {
   margin: 0px 0px 0px 150px;
 }
 .search-button {
-  height: 30px;
+  height: 34px;
   width: 65px;
   margin: 10px 0px 0px -5px;
 }
@@ -76,10 +80,18 @@ body {
 #icon-grid {
   position: relative;
   left: 28px;
+  cursor: pointer;
+
 }
 #icon-setting {
   position: relative;
   left: 60px;
+  cursor: pointer;
+
+}
+#icon-video{
+  cursor: pointer;
+
 }
 
 .log-in {
@@ -133,6 +145,7 @@ body {
 .embed {
   width: 667px;
   height: 375px;
+  border: 0px;
 }
 
 /* author */
@@ -235,6 +248,7 @@ body {
 .thumbnail{
    width: 168px;
    height: 94px;
+   cursor: pointer;
 }
 
 .sidebar{
@@ -269,6 +283,7 @@ body {
   position: relative;
   top: 100px;
   left: 120px;
+  cursor: pointer;
 }
 #ch-name{
   position: relative;
