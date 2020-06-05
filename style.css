@@ -153,13 +153,15 @@ body {
   position: relative;
   top: 50px;
   left: 125px;
-  font-weight: 400;
+  font-size: 18px;
+
 }
 
 #views{
   position: relative;
   top: 70px;
   left: 125px;
+  color: #606060;
 }
 #views i{
   color: #606060;
