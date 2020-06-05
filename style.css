@@ -224,7 +224,7 @@ body {
 
 }
 .rec-channel{
-  color: silver;
+  color: #606060;
   position: relative;
   top:3px;
   font-size: smaller;
@@ -233,7 +233,7 @@ body {
   position: relative;
   top: 4px;
   font-size: smaller;
-  color: silver;
+  color: #606060;
 }
 #ch-img{
   border-radius: 50px;
