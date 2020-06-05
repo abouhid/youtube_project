@@ -2,9 +2,9 @@
 
 > This is the first project of the Microverse Program, which focus on aplying CSS and Html knowledge to recreate the a Youtube webpage.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./youtube.png)
 
-Additional description about the project and its features.
+Additional description about the project and its features:
 
 ## Built With
 
