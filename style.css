@@ -172,7 +172,7 @@ body {
 #separate{
   padding-left: 150px;
 }
-#line{
+.line{
   position: relative;
   top: 80px;
   margin: 0px 354px 0px 124px;
@@ -214,6 +214,7 @@ body {
 .com-time, .com-review{
   color: #606060;
   font-size: 13px;
+  position: relative;
 }
 
  #comment{
@@ -297,6 +298,7 @@ body {
   top: 70px;
   color:#606060;
   left: 200px;
+  font-size: small;
 }
 #subscribe{
   position: relative;
