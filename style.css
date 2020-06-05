@@ -183,7 +183,7 @@ body {
   top: 115px;
   left: 120px
 }
-#sort{
+.sort{
   font-weight: bold;
   color: #606060;
 }
