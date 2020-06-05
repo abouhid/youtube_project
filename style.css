@@ -223,6 +223,18 @@ body {
   word-wrap: break-word; 
 
 }
+.rec-channel{
+  color: silver;
+  position: relative;
+  top:3px;
+  font-size: smaller;
+}
+.views-info{
+  position: relative;
+  top: 4px;
+  font-size: smaller;
+  color: silver;
+}
 #ch-img{
   border-radius: 50px;
   position: relative;
@@ -246,10 +258,10 @@ body {
   color: white;
   background-color: rgb(204, 0, 0);
   border-color: rgb(204, 0, 0);
-  border-radius: 2px;
+  border-radius: 5px;
   left: 666px;
-  width: 130px;
-  height: 40px;
+  width: 121px;
+  height: 33px;
   cursor: pointer;
   font-size: 18px;
 
