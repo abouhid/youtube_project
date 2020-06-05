@@ -173,26 +173,24 @@ body {
   color: #606060;
 }
 
-
-
-.user i{
- 
-  color: #065fd4;
-  height: 40px;
-  width: 40px;
-  display: block;
+/* Comment input */
+.com-input{
+  display: flex;
+  width: 700px;
+  margin-top:20px;
 }
-
 .com-unity{
   display: flex;
   width: 700px;
-margin-top:20px;
+ margin-top:20px;
 }
+
 
 .com-img{
   display: block;
   height: 40px;
   width: 40px;
+  border-radius: 50px;
 }
 .com-name{
   font-size: 13px;
@@ -203,14 +201,13 @@ margin-top:20px;
   font-size: 13px;
 }
 
-/* #comment{
+ #comment{
   position: relative;
   width: 600px;
-  left: 17px;
-  top: 27px;
   border: none;
-  border-color:#606060 ;
-} */
+  margin-left: 20px;
+  border-bottom: #606060 solid 1px;
+} 
 
 
 
