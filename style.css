@@ -163,12 +163,29 @@ body {
   margin: 0px 354px 0px 124px;
   margin-right: -30px;
 }
+#comments{
+  position: relative;
+  top: 115px;
+  left: 120px
+}
+.sort{
+  font-weight: bold;
+  color: #606060;
+}
+.user i{
+  color: #065fd4;
+  height: 40px;
+  width: 40px;
+  display: block;
+
+}
+
+
+
+/*Side-bar*/
 .secondary-column{
   width: 33%;
 }
-
-/*Recommendation*/
-
 #upnxt{
   position: relative;
   top: 45px;
