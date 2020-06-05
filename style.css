@@ -23,7 +23,7 @@ body {
   height: 56px;
   width: 100%;
   background-color: white;
-  padding: 0 16px;
+  margin-left: 16px;
   align-items: center;
 }
 
@@ -224,7 +224,7 @@ body {
   top: 27px;
   left: 300px;
   color:#606060;
-  /* margin-left: 162px; */
+  width: 90px;
 }
 #toggle{
   position: relative;
