@@ -2,7 +2,7 @@
 
 > This is the first project of the Microverse Program, which focus on aplying CSS and Html knowledge to recreate the a Youtube webpage.
 
-![screenshot](./youtube.png)
+![screenshot](./images/youtube.png)
 
 Additional description about the project and its features:
 
@@ -12,7 +12,7 @@ Additional description about the project and its features:
 
 ## Live Demo
 
-[live demo link]()
+[live demo link](https://abouhid.github.io/youtube_project/)
 
 
 ## Authors
