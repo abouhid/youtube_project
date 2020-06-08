@@ -31,7 +31,6 @@ body {
   margin-left: 10px;
   position: relative;
   top: 13px;
-
 }
 
 .bar {
@@ -308,7 +307,6 @@ body {
   margin: 1vw 0vw 58px 50vw;
 }
 #content {
-  
   display: flex;
   width: auto;
   margin-left: 13vw;
