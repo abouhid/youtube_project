@@ -11,10 +11,6 @@ a,
   color: #606060;
 }
 
-body {
-  width: 100%;
-}
-
 /*Nav-bar*/
 
 .nav-bar {
@@ -34,8 +30,7 @@ body {
 }
 
 .bar {
-  /* top: 20px; */
-  /* margin-left: 10px; */
+
   position: relative;
   top: -15px;
   right: 25px;
@@ -46,7 +41,6 @@ body {
 .logo {
   width: 80px;
   height: 40px;
-  /* margin: 12px 0px 0px 57px; */
   cursor: pointer;
 }
 
@@ -67,7 +61,7 @@ body {
 .search-button {
   height: 34px;
   width: 65px;
-  margin: 10px 0px 0px -5px;
+  margin: 10px 0px 0px -8px;
 }
 .search-icon {
   height: 30px;
