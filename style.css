@@ -6,7 +6,8 @@
   font-size: medium;
 }
 
-a,.search-button {
+a,
+.search-button {
   color: #606060;
 }
 
@@ -21,22 +22,26 @@ body {
   display: flex;
   height: 56px;
   width: 100%;
- 
+
   align-items: center;
 }
 
 /*left-header*/
-.left-header{
+.left-header {
   margin-left: 10px;
+  position: relative;
+  top: 13px;
+
 }
 
-
 .bar {
-  top: 20px;
+  /* top: 20px; */
   /* margin-left: 10px; */
+  position: relative;
+  top: -15px;
+  right: 25px;
   font-size: 19px;
   cursor: pointer;
-
 }
 
 .logo {
@@ -44,14 +49,13 @@ body {
   height: 40px;
   /* margin: 12px 0px 0px 57px; */
   cursor: pointer;
-
 }
 
 /*center-header*/
 
 .center-header {
-  
-  top: 4px;
+  top: 5px;
+  position: relative;
 }
 
 .input {
@@ -75,24 +79,22 @@ body {
 
 .right-header {
   margin-right: 10px;
-  top: 8px;
+  top: 12px;
+  position: relative;
 }
 
 #icon-grid {
   position: relative;
   left: 28px;
   cursor: pointer;
-
 }
 #icon-setting {
   position: relative;
   left: 60px;
   cursor: pointer;
-
 }
-#icon-video{
+#icon-video {
   cursor: pointer;
-
 }
 
 .log-in {
@@ -119,28 +121,23 @@ body {
 
 /*Main*/
 
-.main{
+.main {
   display: block;
-
 }
-.primary-column{
+.primary-column {
   float: left;
   width: 57%;
-  }
+}
 
-.secondary-column{
+.secondary-column {
   float: right;
   width: 33%;
   margin-top: -25px;
 }
 
-
-
 .video {
-  display: inline-block;
-  position: relative;
-  left: 126px;
-  top: 24px; 
+  display: flex;
+  margin: 62px 0 0 130px;
 }
 
 .embed {
@@ -150,175 +147,169 @@ body {
 }
 
 /* author */
-#title{
+#title {
   position: relative;
   top: 50px;
   left: 125px;
   font-size: 18px;
-
 }
 
-#views{
+#views {
+  display: flex;
   position: relative;
   top: 70px;
   left: 125px;
   color: #606060;
 }
-#views i{
+#views i {
   color: #606060;
   cursor: pointer;
   padding: 0px 8px 0px 10px;
   font-weight: bold;
 }
-#separate{
-  padding-left: 150px;
+#separate {
+  padding-left: 100px;
 }
-.line{
+.line {
   position: relative;
   top: 80px;
   margin: 0px 354px 0px 124px;
   margin-right: -30px;
 }
-#com-numbers{
+#com-numbers {
   position: relative;
   top: 115px;
-  left: 120px
+  left: 120px;
 }
-.sort{
+.sort {
   font-weight: bold;
   color: #606060;
 }
 
 /* Comment input */
-.com-input{
+.com-input {
   display: flex;
   width: 700px;
-  margin-top:20px;
+  margin-top: 20px;
 }
-.com-unity{
+.com-unity {
   display: flex;
   width: 700px;
- margin-top:20px;
+  margin-top: 20px;
 }
 
-
-.com-img{
+.com-img {
   display: block;
   height: 40px;
   width: 40px;
   border-radius: 50px;
 }
-.com-name{
+.com-name {
   font-size: 13px;
 }
 
-.com-time, .com-review{
+.com-time,
+.com-review {
   color: #606060;
   font-size: 13px;
   position: relative;
 }
 
- #comment{
+#comment {
   position: relative;
-  width: 600px;
+  width: 42vw;
   border: none;
   margin-left: 20px;
   border-bottom: #606060 solid 1px;
-} 
-
-
+}
 
 /*Side-bar*/
-.secondary-column{
+.secondary-column {
   width: 33%;
 }
-#upnxt{
+#upnxt {
   position: relative;
   top: 45px;
 }
-#auto-play{
+#auto-play {
   position: relative;
   top: 27px;
   left: 300px;
-  color:#606060;
+  color: #606060;
   width: 90px;
 }
-#toggle{
+#toggle {
   position: relative;
   top: 2px;
   color: blue;
-  
 }
-.thumbnail{
-   width: 168px;
-   height: 94px;
-   cursor: pointer;
+.thumbnail {
+  width: 168px;
+  height: 94px;
+  cursor: pointer;
 }
 
-.sidebar{
+.sidebar {
   display: flex;
   position: relative;
   top: 55px;
   width: 392px;
 }
-.rec-pos{
+.rec-pos {
   display: flex;
   height: 115px;
 }
-.rec-text-pos{
-  margin-left:8px;
-  word-wrap: break-word; 
-
+.rec-text-pos {
+  margin-left: 8px;
+  word-wrap: break-word;
 }
-.rec-channel{
+.rec-channel {
   color: #606060;
   position: relative;
-  top:3px;
+  top: 3px;
   font-size: smaller;
 }
-.views-info{
+.views-info {
   position: relative;
   top: 4px;
   font-size: smaller;
   color: #606060;
 }
-#ch-img{
+#ch-img {
   border-radius: 50px;
   position: relative;
   top: 100px;
   left: 120px;
   cursor: pointer;
 }
-#ch-name{
+#ch-name {
   position: relative;
   top: 65px;
   left: 200px;
 }
-#ch-subscribers{
+#ch-subscribers {
   position: relative;
   top: 70px;
-  color:#606060;
+  color: #606060;
   left: 200px;
   font-size: small;
 }
-#subscribe{
-  position: relative;
-  top: 13px;
+#subscribe {
   color: white;
   background-color: rgb(204, 0, 0);
   border-color: rgb(204, 0, 0);
   border-radius: 5px;
-  left: 666px;
   width: 121px;
   height: 33px;
+  padding: 5px;
   cursor: pointer;
   font-size: 18px;
-
+  display: flex;
+  margin: 1vw 0vw 58px 50vw;
 }
-#content{
-  position: relative;
-  top: 65px;
-  left: 200px;
-  line-break: auto;
-  width: 575px;
+#content {
+  
+  display: flex;
+  width: auto;
+  margin-left: 13vw;
 }
