@@ -12,25 +12,28 @@ a,.search-button {
 
 body {
   width: 100%;
-
 }
 
 /*Nav-bar*/
 
 .nav-bar {
-  /* justify-content: space-between;
-  display: flex; */
+  justify-content: space-around;
+  display: flex;
   height: 56px;
   width: 100%;
-  background-color: white;
-  margin-left: 16px;
+ 
   align-items: center;
 }
 
-.bar {
-  position: absolute;
-  top: 20px;
+/*left-header*/
+.left-header{
   margin-left: 10px;
+}
+
+
+.bar {
+  top: 20px;
+  /* margin-left: 10px; */
   font-size: 19px;
   cursor: pointer;
 
@@ -39,7 +42,7 @@ body {
 .logo {
   width: 80px;
   height: 40px;
-  margin: 12px 0px 0px 57px;
+  /* margin: 12px 0px 0px 57px; */
   cursor: pointer;
 
 }
@@ -47,17 +50,16 @@ body {
 /*center-header*/
 
 .center-header {
-  position: absolute;
+  
   top: 4px;
 }
 
 .input {
   padding: 0px 5px;
   font-size: 16px;
-  width: 575px;
+  width: 33vw;
   height: 30px;
   color: #606060;
-  margin: 0px 0px 0px 150px;
 }
 .search-button {
   height: 34px;
@@ -72,8 +74,7 @@ body {
 /*right-header*/
 
 .right-header {
-  position: absolute;
-  left: 1016px;
+  margin-right: 10px;
   top: 8px;
 }
 

@@ -2,63 +2,50 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <!-- Link to fonts awesome for us to be able to use the icons -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="icons/youtube.png" />
     <title>FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear</title>
   </head>
 
   <body>
-    <div class="nav-bar">
-      <!-- ==========================Left-header===================== -->
-      <!-- Guide Icon -->
-      <span class="bar"> <i class="fa fa-bars"></i> </span>
-      <!-- Youtube Logo -->
-      <img
-        class="logo"
-        alt="youtube logo"
-        src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"
-      />
-      <!-- ==========================Center-header===================== -->
+    <header>
 
-      <span class="center-header">
+      <nav class="nav-bar">
+      <div class="left-header">
+       <span class="bar"> <i class="fa fa-bars"></i> </span>
+        
+      <img class="logo"
+          alt="youtube logo"
+          src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"/>
+        </div>
+      
+      <div class="center-header">
         <input class="input" type="text" placeholder="Search" />
         <button type="submit" class="search-button">
           <i class="fas fa-search"></i>
         </button>
-      </span>
+      </div>
 
-      <!-- ==========================Right Header===================== -->
-
-      <span class="right-header">
-        <!-- Icons of the right header -->
+      <div class="right-header">
         <i id="icon-video" class="fas fa-video" style="color: #606060;"></i>
         <i id="icon-grid" class="fas fa-th" style="color: #606060;"></i>
-        <i
-          id="icon-setting"
+        <i id="icon-setting"
           class="fa fa-ellipsis-v"
-          style="color: #606060;"
-        ></i>
-        <!-- Log-in Button -->
+          style="color: #606060;"></i>
         <button class="log-in">
-          <span> <i id="icon-profile" class="fa fa-user-circle"></i> </span>SIGN
-          IN
-        </button></span
-      >
-    </div>
+          <span> <i id="icon-profile" class="fa fa-user-circle"></i> </span>SIGN IN</button>
+      </div>
+      </nav>
+    </header>
 
-    <!-- ==========================Main===================== -->
-
+    <main>
     <div class="main"></div>
-    <!-- ==========================Primary Colum===================== -->
-
-    <!--Video-->
+  
     <div class="primary-column">
       <span class="video">
         <iframe
@@ -125,7 +112,6 @@
           <input id="comment" placeholder="Add comment" />
         </div>
 
-        <!-- <span class="user"> <i class="fa fa-user-circle"></i></span><span><input placeholder="Add comment"></span> -->
         <!-- Comments -->
         <div class="com-block">
           <!-- Comment 1 -->
@@ -384,5 +370,7 @@
         </div>
       </div>
     </div>
+    </main>
+
   </body>
 </html>
