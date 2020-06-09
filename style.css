@@ -125,7 +125,11 @@ body {
 }
 .primary-column {
   float: left;
-  width: 57%;
+  width: 62%;
+}
+
+.style-icon{
+  color: #606060;
 }
 
 .secondary-column {
