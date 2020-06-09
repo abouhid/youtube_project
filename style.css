@@ -30,7 +30,6 @@ a,
 }
 
 .bar {
-
   position: relative;
   top: -15px;
   right: 25px;
@@ -122,7 +121,7 @@ a,
   width: 62%;
 }
 
-.style-icon{
+.style-icon {
   color: #606060;
 }
 
