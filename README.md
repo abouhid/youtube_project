@@ -1,4 +1,4 @@
-# Project Name
+# Youtube Project
 
 > This is the first project of the Microverse Program, which focus on applying CSS and Html knowledge to recreate a Youtube webpage.
 
