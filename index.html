@@ -1,25 +1,339 @@
 <!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/youtube.png" />
+    <title>FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear</title>
+  </head>
 
-<head>
-</head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="left-header">
+          <span class="bar"> <i class="fa fa-bars"></i> </span>
 
-<body>
-<div class="nav-bar">
-    <div class="logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_of_YouTube_%282013-2015%29.svg">
-    </div>
-    <div class="search-bar">
-        <input type="Search">
-            <div class="search-button">
-                <button type="Search"></button>
+          <img
+            class="logo"
+            alt="youtube logo"
+            src="https://exame.com/wp-content/uploads/2017/08/new-youtube-logo-840x402.jpg?quality=70&strip=info"
+          />
+        </div>
+
+        <div class="center-header">
+          <input class="input" type="text" placeholder="Search" />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="right-header">
+          <i id="icon-video" class="fas fa-video style-icon"></i>
+          <i id="icon-grid" class="fas fa-th style-icon"></i>
+          <i id="icon-setting" class="fa fa-ellipsis-v style-icon"></i>
+          <button class="log-in">
+            <span> <i id="icon-profile" class="fa fa-user-circle"></i> </span
+            >SIGN IN
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="primary-column">
+        <span class="video">
+          <iframe
+            class="embed"
+            src="https://www.youtube.com/embed/ROOeGPrC1Do"
+            allowfullscreen
+          >
+          </iframe>
+        </span>
+
+        <div class="video-title">
+          <p id="title">
+            FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear
+          </p>
+        </div>
+        <div>
+          <p id="views">
+            9,710,783 views • Apr 26, 2020
+            <span id="separate">
+              <span><i class="fas fa-thumbs-up"> 1.3k</i> </span>
+              <span> <i class="fas fa-thumbs-down"> 20</i></span>
+              <span> <i class="fas fa-share"> Share</i> </span>
+              <span> <i class="fas fa-cloud-download-alt"> Save</i> </span>
+              <span> <i class="fa fa-ellipsis-h"></i> </span>
+            </span>
+          </p>
+        </div>
+        <hr class="line" />
+        <div>
+          <img src="icons/ch.jpg" alt="channel image" id="ch-img" />
+          <p id="ch-name"><b> Top Gear</b></p>
+          <p id="ch-subscribers">7.33M subscribers</p>
+
+          <span><button id="subscribe">SUBSCRIBE</button></span>
+          <p id="content">
+            Hammond is in the dunes of Abu Dhabi to drive a new six wheeled
+            machine from Mercedes Benz – the G63 6x6. Originally developed for
+            the Australian military, it's now available civilians - as long as
+            you have over half a million dollars to spend!
+          </p>
+        </div>
+        <hr class="line" />
+
+        <div id="com-numbers">
+          <h2>
+            <span>14,239 Comments &emsp; &emsp;</span
+            ><span class="sort"
+              ><i class="fas fa-sort-amount-up"></i> SORT BY
+            </span>
+          </h2>
+          <br />
+          <div class="com-input">
+            <span
+              ><img
+                class="com-img"
+                alt="video"
+                src="https://pluspng.com/img-png/user-png-icon-male-user-icon-512.png"
+            /></span>
+            <input id="comment" placeholder="Add comment" />
+          </div>
+
+          <div class="com-block">
+            <div class="com-unity">
+              <span
+                ><img
+                  class="com-img"
+                  alt="video"
+                  src="https://lh3.googleusercontent.com/a-/AOh14Gg3z157SKsDNkciDW-e7qUfZIM01WXORpWQp8ShQA=s88"
+              /></span>
+
+              <div class="com-posit">
+                <span class="com-name"><b>Karthick </b></span>
+                <span class="com-time">1 week ago</span>
+
+                <div class="com-text">
+                  Wow, this project is really well done!
+                </div>
+                <br /><span class="com-review">
+                  <span><i class="fas fa-thumbs-up"> 120K</i> </span>
+                  <span> &emsp;<i class="fas fa-thumbs-down"> 1</i></span>
+                  <span> &emsp;REPLY</span>
+                </span>
+              </div>
             </div>
-    </div>
-    <div class="Sign-in">
+            <div class="com-unity">
+              <span
+                ><img
+                  class="com-img"
+                  alt="video"
+                  src="https://avatars3.githubusercontent.com/u/60702127?s=400&u=45cf9e61814be275f703381092a3d2a3936ebbd8&v=4"
+              /></span>
 
-    </div>
-</div>
+              <div class="com-posit">
+                <span class="com-name"><b>Alexandre Bouhid </b></span
+                ><span class="com-time">2 weeks ago </span>
+
+                <p class="com-text">
+                  Come on Karthick, we need to be more humble...
+                </p>
+                <br /><span class="com-review">
+                  <span><i class="fas fa-thumbs-up"> 1k</i> </span>
+                  <span> &emsp;<i class="fas fa-thumbs-down"> 14</i></span>
+                  <span> &emsp;REPLY</span>
+                </span>
+              </div>
+            </div>
+            <div class="com-unity">
+              <span
+                ><img
+                  class="com-img"
+                  alt="video"
+                  src="https://yt3.ggpht.com/a/AATXAJzv_SRfKIDVZfoj2ji2nPLMTd-jNJsz2jNTRg=s48-c-k-c0xffffffff-no-rj-mo"
+              /></span>
+
+              <div class="com-posit">
+                <span class="com-name"><b>Lionel Messi </b></span
+                ><span class="com-time">1 month ago </span>
+
+                <p class="com-text">
+                  This guys are pretty good, I would invest in them!
+                </p>
+                <br /><span class="com-review">
+                  <span><i class="fas fa-thumbs-up"> 4.3k</i> </span>
+                  <span> &emsp;<i class="fas fa-thumbs-down"> 4</i></span>
+                  <span> &emsp;REPLY</span>
+                </span>
+              </div>
+            </div>
+            <div class="com-unity">
+              <span
+                ><img
+                  class="com-img"
+                  alt="video"
+                  src="https://pbs.twimg.com/profile_images/1161128533986381824/khmFawef_400x400.jpg"
+              /></span>
 
 
+              <div class="com-posit">
+                <span class="com-name"><b>Professor </b></span
+                ><span class="com-time">1 month ago </span>
 
+                <p class="com-text">
+                  Well, we are needing some hackers on our team...
+                </p>
+                <br /><span class="com-review">
+                  <span><i class="fas fa-thumbs-up"> 1.9k</i> </span>
+                  <span> &emsp;<i class="fas fa-thumbs-down"> 2</i></span>
+                  <span> &emsp;REPLY</span>
+                </span>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="secondary-column">
+        <p id="upnxt">Up next</p>
+        <p id="auto-play">
+          Autoplay <span><i class="fas fa-toggle-on" id="toggle"></i></span>
+        </p>
+        <div class="sidebar">
+          <div class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/ZDbNe3mS0aw/maxresdefault.jpg"
+            /></span>
+            <div class="rec-text-pos">
+              <div>
+                <p class="rec-text">
+                  Wibmer's Law - Fabio Wibmer | Wibmer's Law - Fabio
+                </p>
+              </div>
 
-</body>
+              <span class="rec-channel">Fabio Wibmer <br /></span>
+              <span class="views-info">9K views • 24 days ago</span>
+            </div>
+          </div>
+        </div>
+        <span class="sidebar">
+          <span class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/CqGZqyUwxZc/hqdefault.jpg"
+            /></span>
+            <span class="rec-text-pos">
+              <span class="rec-text">
+                Bugatti Veyron Vs Euro Fighter Typhoon: Drag Race (HQ) | Top
+                Gear | BBC
+              </span>
+              <span class="rec-channel">Top Gear <br /></span>
+              <span class="views-info">40K views • 120 days ago</span>
+            </span>
+          </span>
+        </span>
+        <span class="sidebar">
+          <span class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/DrUVMdkb4_k/maxresdefault.jpg"
+            /></span>
+            <span class="rec-text-pos">
+              <span class="rec-text">
+                Mercedes G63 AMG 6x6 Review | Top Gear | Series 21 | BBC
+              </span>
+              <span class="rec-channel">Car Craze <br /></span>
+              <span class="views-info">8K views • 20 days ago</span>
+            </span>
+          </span>
+        </span>
+        <span class="sidebar">
+          <span class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/cDoRmT0iRic/hqdefault.jpg"
+            /></span>
+            <span class="rec-text-pos">
+              <span class="rec-text">
+                The Marauder | Ten Ton Military Vehicle | Top Gear | BBC
+              </span>
+              <span class="rec-channel">Aviation Gear <br /></span>
+              <span class="views-info">1M views • 2 days ago</span>
+            </span>
+          </span>
+        </span>
+        <span class="sidebar">
+          <span class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/luH-rOYixY8/maxresdefault.jpg"
+            /></span>
+            <span class="rec-text-pos">
+              <span class="rec-text">
+                F1 Car vs F/A-18 Hornet (Red Bull's Daniel Ricciardo Feels The
+                Force)
+              </span>
+              <span class="rec-channel"
+                >Aston Martin Red Bull Racing <br
+              /></span>
+              <span class="views-info">100M views • 200 days ago</span>
+            </span>
+          </span>
+        </span>
+        <div class="sidebar">
+          <span class="rec-pos">
+            <span
+              ><img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/FssQhpAqv1I/maxresdefault.jpg"
+            /></span>
+            <span class="rec-text-pos">
+              <span class="rec-text">
+                Mine Racing with The Stig's Australian Cousin | Top Gear |
+                Series 22 | BBC
+              </span>
+              <span class="rec-channel">Racing Wheel <br /></span>
+              <span class="views-info">8K views • 6 days ago</span>
+            </span>
+          </span>
+        </div>
+        <div class="sidebar">
+          <div class="rec-pos">
+            <div>
+              <img
+                class="thumbnail"
+                alt="video"
+                src="http://i3.ytimg.com/vi/8-9oFxYFODE/maxresdefault.jpg"
+              />
+            </div>
+            <div class="rec-text-pos">
+              <p class="rec-text">Drag Race: Formula E Car vs Cheetah</p>
+              <p class="rec-channel">ABB Formula E</p>
+              <p class="views-info">14k views • 3 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

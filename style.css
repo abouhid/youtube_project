@@ -1,0 +1,313 @@
+/*Standard*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+a,
+.search-button {
+  color: #606060;
+}
+
+/*Nav-bar*/
+
+.nav-bar {
+  justify-content: space-around;
+  display: flex;
+  height: 56px;
+  width: 100%;
+
+  align-items: center;
+}
+
+/*left-header*/
+.left-header {
+  margin-left: 10px;
+  position: relative;
+  top: 13px;
+}
+
+.bar {
+  position: relative;
+  top: -15px;
+  right: 25px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/*center-header*/
+
+.center-header {
+  top: 5px;
+  position: relative;
+}
+
+.input {
+  padding: 0px 5px;
+  font-size: 16px;
+  width: 33vw;
+  height: 30px;
+  color: #606060;
+}
+.search-button {
+  height: 34px;
+  width: 65px;
+  margin: 10px 0px 0px -8px;
+}
+.search-icon {
+  height: 30px;
+  width: 65px;
+}
+
+/*right-header*/
+
+.right-header {
+  margin-right: 10px;
+  top: 12px;
+  position: relative;
+}
+
+#icon-grid {
+  position: relative;
+  left: 28px;
+  cursor: pointer;
+}
+#icon-setting {
+  position: relative;
+  left: 60px;
+  cursor: pointer;
+}
+#icon-video {
+  cursor: pointer;
+}
+
+.log-in {
+  background-color: white;
+  border-color: #065fd4;
+  color: #065fd4;
+  font-size: 17px;
+  height: 40px;
+  width: 119px;
+  margin: 0px 0px 0px 78px;
+  border-width: 0.05em;
+  padding-left: 24px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+#icon-profile {
+  position: absolute;
+  left: 145px;
+  color: #065fd4;
+  bottom: 12px;
+  cursor: pointer;
+}
+
+/*Main*/
+
+.main {
+  display: block;
+}
+.primary-column {
+  float: left;
+  width: 62%;
+}
+
+.style-icon {
+  color: #606060;
+}
+
+.secondary-column {
+  float: right;
+  width: 33%;
+  margin-top: -25px;
+}
+
+.video {
+  display: flex;
+  margin: 62px 0 0 130px;
+}
+
+.embed {
+  width: 667px;
+  height: 375px;
+  border: 0px;
+}
+
+/* author */
+#title {
+  position: relative;
+  top: 50px;
+  left: 125px;
+  font-size: 18px;
+}
+
+#views {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: 125px;
+  color: #606060;
+}
+#views i {
+  color: #606060;
+  cursor: pointer;
+  padding: 0px 8px 0px 10px;
+  font-weight: bold;
+}
+#separate {
+  padding-left: 100px;
+}
+.line {
+  position: relative;
+  top: 80px;
+  margin: 0px 354px 0px 124px;
+  margin-right: -30px;
+}
+#com-numbers {
+  position: relative;
+  top: 115px;
+  left: 120px;
+}
+.sort {
+  font-weight: bold;
+  color: #606060;
+}
+
+/* Comment input */
+.com-input {
+  display: flex;
+  width: 700px;
+  margin-top: 20px;
+}
+.com-unity {
+  display: flex;
+  width: 700px;
+  margin-top: 20px;
+}
+
+.com-img {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.com-name {
+  font-size: 13px;
+}
+
+.com-time,
+.com-review {
+  color: #606060;
+  font-size: 13px;
+  position: relative;
+}
+.com-posit{
+  margin-left: 20px;
+}
+
+#comment {
+  position: relative;
+  width: 42vw;
+  border: none;
+  margin-left: 20px;
+  border-bottom: #606060 solid 1px;
+}
+
+/*Side-bar*/
+.secondary-column {
+  width: 33%;
+}
+#upnxt {
+  position: relative;
+  top: 45px;
+}
+#auto-play {
+  position: relative;
+  top: 27px;
+  left: 300px;
+  color: #606060;
+  width: 90px;
+}
+#toggle {
+  position: relative;
+  top: 2px;
+  color: blue;
+}
+.thumbnail {
+  width: 168px;
+  height: 94px;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: flex;
+  position: relative;
+  top: 55px;
+  width: 392px;
+}
+.rec-pos {
+  display: flex;
+  height: 115px;
+}
+.rec-text-pos {
+  margin-left: 8px;
+  word-wrap: break-word;
+}
+.rec-channel {
+  color: #606060;
+  position: relative;
+  top: 3px;
+  font-size: smaller;
+}
+.views-info {
+  position: relative;
+  top: 4px;
+  font-size: smaller;
+  color: #606060;
+}
+#ch-img {
+  border-radius: 50px;
+  position: relative;
+  top: 100px;
+  left: 120px;
+  cursor: pointer;
+}
+#ch-name {
+  position: relative;
+  top: 65px;
+  left: 200px;
+}
+#ch-subscribers {
+  position: relative;
+  top: 70px;
+  color: #606060;
+  left: 200px;
+  font-size: small;
+}
+#subscribe {
+  color: white;
+  background-color: rgb(204, 0, 0);
+  border-color: rgb(204, 0, 0);
+  border-radius: 5px;
+  width: 121px;
+  height: 33px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  margin: 1vw 0vw 58px 50vw;
+}
+#content {
+  display: flex;
+  width: auto;
+  margin-left: 13vw;
+}
